@@ -18,7 +18,7 @@ game.bgm1.loop = true;
 // 複数画像読み込み
 let imageLoadCounter = 0;
 for (const imageName of imageNames) {
-  const imagePath = `/Users/komamurayuuta/Desktop/プログラミング授業用ファイル/chrome-dino-game-images/image/${imageName}.png`;
+  const imagePath = `https://github.com/yutamaro/dino-game/blob/main/${imageName}.png?raw=true`;
 game.image[imageName] = new Image();
     game.image[imageName].src = imagePath;
     game.image[imageName].onload = () => {
