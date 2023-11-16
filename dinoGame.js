@@ -6,7 +6,7 @@ const game = {
     counter: 0,
     backGrounds: [],
     bgm1: new Audio('/Users/komamurayuuta/Downloads/獅子侍の編集道具/楽しい時bgm.mp3'),
-    bgm2: new Audio('/Users/komamurayuuta/Downloads/使えるエフェクト/回避素材.mp3'),
+    bgm2: new Audio('https://github.com/yutamaro/dino-game/raw/main/%E5%9B%9E%E9%81%BF%E7%B4%A0%E6%9D%90.mp3'),
     enemys: [],
     enemyCountdown: 0,
     image: {},
